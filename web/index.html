@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boilerplate PhoneGap/Cordova App with RequireJS, Backbone and jQuery Mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery Mobile styles -->
+    <link rel="stylesheet" href="scripts/libs/jquery.mobile/jquery.mobile-1.2.0.css"/>
+
+    <link href='http://fonts.googleapis.com/css?family=Michroma|Rosario' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/less" href="css/8ball.less" media="all"/>
+
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.less" media="all"/>
+
+    <script type="text/javascript" src="js/libs/less.js"></script>
+
+    <!-- Fix for scrolling on iOS prior to iOS 6 -->
+    <style type="text/css">
+        .scrollable > * {
+            -webkit-transform: translateZ(0px);
+        }
+    </style>
+
+    <!-- Referencing iOS specific PhoneGap JS -->
+    <script type="text/javascript" src="js/libs/cordova/cordova-ios-2.1.0.js"></script>
+
+    <script data-main="js/8ball" src="js/libs/require/require.js"></script>
+</head>
+<body class="8ball-prisoner">
+<div id="container"/>
+</body>
+</html>

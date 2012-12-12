@@ -1,0 +1,25 @@
+{
+    "name":"jibhaine/8ball-ui",
+    "description":"Experimental node-ball based interface",
+    "homepage":"http://8ballui.jerzual.io/",
+    "version":"0.1.0",
+    "authors":[
+        {
+            "name":"Benjamin Legrand",
+            "email":"benjamin.legrand@jerzual.com",
+            "homepage":"http://www.jerzual.com/"
+        }
+    ],
+    "minimum-stability":"dev",
+    "require":
+    {
+        "silex/silex"       : "1.0.*",
+        "twig/twig"         : "1.*",
+        "doctrine/orm"      : "2.3.0"
+    },
+    "require-dev":
+    {
+        "apigen/apigen" : "2.*"
+        ,"phpunit/phpunit"  : "2.*"
+    }
+}
