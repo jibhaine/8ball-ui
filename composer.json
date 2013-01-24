@@ -13,9 +13,10 @@
     "minimum-stability":"dev",
     "require":
     {
-        "silex/silex"       : "1.0.*",
+        "slim/slim"       : "2.*",
+        "slim/extras"       : "2.*",
         "twig/twig"         : "1.*",
-        "doctrine/orm"      : "2.3.0"
+        "php-activerecord/php-activerecord"      : "dev-master"
     },
     "require-dev":
     {
