@@ -1,0 +1,42 @@
+!!! 5
+html
+head
+    title Boilerplate PhoneGap/Cordova App with RequireJS, Backbone and jQuery Mobile
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='icon', type='image/png', href='favicon.png')
+    link(href='http://fonts.googleapis.com/css?family=Michroma|Rosario', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', type='text/css', href='css/8ball.css', media='all')
+    //
+       Fix for scrolling on iOS prior to iOS 6 
+    style(type='text/css')
+      .scrollable > * {
+      -webkit-transform: translateZ(0px);
+      }
+    //
+       Referencing iOS specific PhoneGap JS 
+    script(type='text/javascript', src='js/libs/cordova/cordova-ios-2.1.0.js')
+    script(data-main='js/8ball', src='js/libs/require/require.js')
+  body.eightball
+    #container
+      h1.logo-eight 8Ball UI
+      .intro-text
+        p.info
+          | 8Ball UI is a Proof of concept for a circle based user interface.
+          br
+          | It uses
+
+        ul.libs
+          li
+            a(href='#') Backbone
+          li
+            a(href='#') Raphael
+          li
+            a(href='#') Traer
+          li
+            a(href='#') Hammer
+          li
+            a(href='#') Cordova
+          li
+            a(href='#') Node.js/Express/Socket.io
+          li
+            a(href='http://ngauthier.com/2012/02/raphael-backbone-traer.html') Raphael Backbone Traer

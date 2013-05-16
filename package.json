@@ -1,13 +1,17 @@
 {
-  "name": "application-name",
+  "name": "8ball-ui",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
+      "yaml":"",
+      "config":"",
     "express": "3.2.0",
-    "ejs": "*",
+      "seed": "*",
+    "jade": "*",
+      "underscore":"",
     "less-middleware": "*"
   }
 }

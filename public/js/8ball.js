@@ -13,18 +13,16 @@ require.config({
         // RequireJS plugin
         domReady:'libs/require/domReady',
         // underscore library
-        underscore:'libs/underscore/underscore',
+        underscore:'libs/underscore',
         // Backbone.js library
-        Backbone:'libs/backbone/backbone',
+        Backbone:'libs/backbone',
         // jQuery
-        jquery:'libs/jquery/jquery-1.8.2',
+        jquery:'libs/jquery-1.8.2',
         //hammer
-        hammer:'libs/hammer/hammer',
-        "jquery-hammer":'libs/hammer/jquery.hammer',
+        hammer:'libs/hammer',
+        "jquery-hammer":'libs/jquery.hammer',
         //D3
-        d3:'libs/d3_v2',
-        // backvbone-d3
-        "backbone-d3":'libs/backbone/backbone-d3'
+        traer:'libs/traer'
     },
     shim:{
         Backbone:{
@@ -33,14 +31,14 @@ require.config({
         },
         underscore:{
             exports:'_'
-        },
+        }/*,
         "backbone-d3":{
             deps:['Backbone', 'd3']
-        }
+        }   */
     }
 });
 
-require(['domReady', 'views/home/HomeView','backbone-d3'],
+require(['domReady', 'views/home/HomeView','traer'],
     function (domReady, HomeView) {
 
         // domReady is RequireJS plugin that triggers when DOM is ready

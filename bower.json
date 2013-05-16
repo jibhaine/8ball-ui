@@ -1,0 +1,17 @@
+{
+  "name": "8ball-ui",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~1.9.0",
+    "requirejs": "~2.1.5",
+    "requirejs-text": "~2.0.5",
+      "raphael": "*",
+      "hammerjs": "*",
+      "backbone-amd": "~1.0.0",
+      "backbone.iobind": "*",
+      "backbone-relational": "*",
+    "underscore-amd": "~1.4.4",
+    "modernizr": "~2.6.2"
+  },
+  "devDependencies": {}
+}
